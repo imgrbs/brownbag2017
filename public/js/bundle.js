@@ -7451,41 +7451,8 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var NavBar = function (_React$Component) {
-  _inherits(NavBar, _React$Component);
-
-  function NavBar(props) {
-    _classCallCheck(this, NavBar);
-
-    var _this = _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
-
-    _this.state = {};
-    return _this;
-  }
-
-  _createClass(NavBar, [{
-    key: "render",
-    value: function render() {
-      return _react2.default.createElement(
-        "div",
-        null,
-        _react2.default.createElement(
-          "ul",
-          null,
-          _react2.default.createElement("li", null),
-          _react2.default.createElement("li", null),
-          _react2.default.createElement("li", null),
-          _react2.default.createElement("li", null)
-        )
-      );
-    }
-  }]);
-
-  return NavBar;
-}(_react2.default.Component);
-
-var App = function (_React$Component2) {
-  _inherits(App, _React$Component2);
+var App = function (_React$Component) {
+  _inherits(App, _React$Component);
 
   function App() {
     _classCallCheck(this, App);
@@ -7499,11 +7466,7 @@ var App = function (_React$Component2) {
       return _react2.default.createElement(
         "div",
         { className: "container-fluid" },
-        _react2.default.createElement(
-          "div",
-          { className: "row" },
-          _react2.default.createElement(NavBar, null)
-        )
+        _react2.default.createElement("div", { className: "row" })
       );
     }
   }]);
