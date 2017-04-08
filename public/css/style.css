@@ -5,3 +5,10 @@ body{
     margin: 0;
     font-family: 'Thaisans Neue for Web', sans-serif;
 }
+
+#whatis{
+    background-color: #EEC1A2;
+    color: #5F3307;
+    height: auto;
+    min-height: 520px;
+}
