@@ -11,7 +11,7 @@ class WhatIs extends React.Component{
         <div className="row">
             <div className="col-xs-12">
                 <h1>WHAT IS BROWN BAG?</h1>
-                <p>     
+                <p>
                     <br/>
                     <span>
                         Join us for two days of interactive demos, announcements, and best practices that will keep you looking ahead. Attend sessions and interact with Facebook products and experts. Whether you’re with us in San Jose or tuning in from around the world, there’s an F8 for everyone.
