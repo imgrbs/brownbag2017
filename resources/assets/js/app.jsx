@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatIs from './whatis.jsx';
 
 class App extends React.Component{
   constructor(){
@@ -7,10 +8,8 @@ class App extends React.Component{
 
   render(){
     return (
-      <div className="container-fluid">
-        <div className="row">
-          
-        </div>
+      <div>
+        <WhatIs />
       </div>
     );
   }
