@@ -1,7 +1,7 @@
   <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>ReactDay - ToDoList</title>
+    <title>Brown Bag 2.0</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
