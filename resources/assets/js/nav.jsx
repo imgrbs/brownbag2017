@@ -7,22 +7,21 @@ import React from 'react';
    render() {
      return (
        <div>
-         <nav class="navbar navbar-default navbar-fixed-top">
+         <nav className="navbar navbar-default navbar-fixed-top">
            <div className="container-fluid">
-
-             <div class="navbar-header">
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
-                 <span class="sr-only">Toggle navigation</span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
-                 <span class="icon-bar"></span>
+             <div className="navbar-header">
+               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+                 <span className="sr-only">Toggle navigation</span>
+                 <span className="icon-bar"></span>
+                 <span className="icon-bar"></span>
+                 <span className="icon-bar"></span>
                </button>
-               <a href="#" class="navbar-brand">Brand</a>
+               <a href="#" className="navbar-brand">Brand</a>
              </div>
 
-            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-6" aria-expanded="false" style="height: 1px;">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+            <div className="navbar-collapse collapse" id="bs-example-navbar-collapse-6" aria-expanded="false" style={{height: '1px'}}>
+              <ul className="nav navbar-nav">
+                <li className="active"><a href="#">Home</a></li>
                 <li><a href="#">Link</a></li>
                 <li><a href="#">Link</a></li>
               </ul>

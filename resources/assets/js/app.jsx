@@ -14,7 +14,6 @@ class App extends React.Component{
         <WhatIs />
         <Nav />
         <Sponsor />
-
       </div>
     );
   }
