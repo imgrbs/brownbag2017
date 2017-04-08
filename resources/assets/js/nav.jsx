@@ -1,4 +1,5 @@
 import React from 'react';
+
  class Nav extends React.Component {
    constructor(){
      super();
@@ -7,23 +8,22 @@ import React from 'react';
    render() {
      return (
        <div>
-         <nav className="navbar navbar-default navbar-fixed-top">
+         <nav className="navbar navbar-default navbar-default-edit navbar-fixed-top">
            <div className="container-fluid">
              <div className="navbar-header">
-               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+               <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false">
                  <span className="sr-only">Toggle navigation</span>
                  <span className="icon-bar"></span>
                  <span className="icon-bar"></span>
                  <span className="icon-bar"></span>
                </button>
-               <a href="#" className="navbar-brand">Brand</a>
              </div>
 
-            <div className="navbar-collapse collapse" id="bs-example-navbar-collapse-6" aria-expanded="false" style={{height: '1px'}}>
+            <div className="navbar-collapse navbar-collapse-edit collapse" id="bbnav" aria-expanded="false" style={{height: '1px'}}>
               <ul className="nav navbar-nav">
-                <li className="active"><a href="#">Home</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
+                <li className="active"><a href="#">WHAT'S</a></li>
+                <li><a href="#">TIMETABLE</a></li>
+                <li><a href="#">SESSIONS</a></li>
               </ul>
             </div>
 

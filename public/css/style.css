@@ -23,7 +23,6 @@ body{
     min-height: 568px;
     padding: 2em 2em;
 }
-
 #sponsor{
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
@@ -31,3 +30,49 @@ body{
     min-height: 568px;
     padding: 5em 2em;
 }
+
+
+/* CONTACT */
+#contact{
+    background-color: #8E6F56;
+    color: wheat;
+    height: auto;
+    min-height: 568px;
+    padding: 2em 2em;
+}
+#contact .baglogo{
+  height: 7em;
+}
+#contact .icon{
+  background-color: #70584B;
+  padding: 0.5em;
+  border-radius: 20px;
+  margin-left: 1em;
+}
+#contact i{
+  font-size: 1.5em;
+}
+/* END CONTACT */
+
+/* Bootstrap Config */
+.navbar-default-edit{
+  background: transparent;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle-edit{
+  background: transparent;
+  border-color : #fff;
+}
+.navbar-default .navbar-toggle-edit:focus, .navbar-default .navbar-toggle-edit:hover{
+  background: transparent;
+}
+.navbar-collapse-edit{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-default-edit .navbar-nav>li>a{
+  color: white;
+}
+.navbar-default-edit .navbar-toggle-edit .icon-bar{
+  background-color: #fff;
+}
+/* END Bootstrap Config*/
