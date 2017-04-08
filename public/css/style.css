@@ -4,6 +4,10 @@
 body{
     margin: 0;
     font-family: 'Thaisans Neue for Web', sans-serif !important;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 .SIT{
@@ -22,6 +26,23 @@ body{
     height: auto;
     min-height: 568px;
     padding: 2em 2em;
+}
+
+#timetable{
+    background-color: rgba(95, 51, 7, 0.8);
+    color: #fff;
+    height: 53em;
+    padding: 2em 0em 2em 2.25em;
+}
+
+.time{
+    color: #F0E6B1;
+    font-size: 1.4em;
+}
+
+.event{
+    color: #fff;
+    font-size: 1.25em;
 }
 
 #sponsor{
