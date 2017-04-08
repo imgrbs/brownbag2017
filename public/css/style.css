@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    font-family: 'Thaisans Neue for Web', sans-serif;
+    font-family: 'Thaisans Neue for Web', sans-serif !important;
 }
 
 #whatis{
@@ -12,4 +12,12 @@ body{
     height: auto;
     min-height: 568px;
     padding: 2em 2em;
+}
+
+#sponsor{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    height: auto;
+    min-height: 568px;
+    padding: 5em 2em;
 }
