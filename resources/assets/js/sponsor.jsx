@@ -1,5 +1,6 @@
 import React from 'react';
-import Sit from '../images/alchLogo.png';
+import Sit from '../images/SIT.svg';
+import Alch from '../images/alchLogo.png';
 
 class Sponsor extends React.Component{
   constructor(){
@@ -13,9 +14,9 @@ class Sponsor extends React.Component{
             <div className="col-xs-12 text-center">
                 <p>
                     <h1>Sponsor</h1>
-                    <img src={this.props.Sit} alt=""/>
+                    <img src={Sit} alt="" className="SIT"/>
                     <h2>Create By</h2>
-                    <img src={this.props.Sit} alt=""/>
+                    <img src={Alch} alt="" className="logo"/>
                 </p>
             </div>
         </div>
