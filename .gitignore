@@ -7,3 +7,5 @@
 Homestead.json
 Homestead.yaml
 .env
+/public/js/bundle.js
+/public/js/vendor.js

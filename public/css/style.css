@@ -10,5 +10,6 @@ body{
     background-color: #EEC1A2;
     color: #5F3307;
     height: auto;
-    min-height: 520px;
+    min-height: 568px;
+    padding: 2em 2em;
 }
