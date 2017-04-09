@@ -11,7 +11,10 @@ import React from 'react';
          <div className="row">
            <nav className="navbar navbar-default navbar-default-edit navbar-fixed-top">
                <div className="navbar-header">
-                 <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false">
+                 <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false" style={{
+                   marginRight : '1em',
+                   marginTop:'1.5em',
+                 }}>
                    <span className="sr-only">Toggle navigation</span>
                    <span className="icon-bar"></span>
                    <span className="icon-bar"></span>
