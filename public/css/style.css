@@ -8,6 +8,7 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
+  scroll-behavior: smooth;
 }
 
 .SIT{
@@ -92,8 +93,25 @@ body{
 }
 
 .whatis-btn{
-  border-bottom: solid 0.1em;
+  border-bottom: solid 0.07em;
+  transition: 0.2s;
 }
+.whatis-btn:hover{
+  border-bottom: solid 0.15em;
+  transition: 0.2s;
+}
+.session-btn{
+  border: 2px solid white;
+  padding:0.3em 0.8em 0.3em 0.8em;
+  transition: 0.3s;
+}
+.session-btn:hover{
+  background-color: white;
+  color: rgba(168, 132, 113, 0.85);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 /* END FIRST SECTOR */
 
 /* WHATIS */
@@ -140,15 +158,6 @@ body{
   min-height: 568px;
   padding: 5em 2em;
 }
-.session-btn{
-  border: 2px solid white;
-  padding:0.3em 0.8em 0.3em 0.8em;
-}
-.session-btn:hover{
-  background-color: white;
-  color: rgba(168, 132, 113, 0.85);
-  text-decoration: none;
-}
 /* END SPONSOR */
 
 /* CONTACT */
@@ -186,9 +195,16 @@ body{
 /* END CONTACT */
 
 /* Bootstrap Config */
+.navbar-collapse{
+  transition: 0.3s;
+}
+.navbar-nav{
+  transition: 0.3s;
+}
 .navbar-default-edit{
   background: transparent;
   border-color: transparent;
+  transition: 0.3s;
 }
 .navbar-default .navbar-toggle-edit{
   background: transparent;
@@ -206,7 +222,32 @@ body{
 .navbar-default-edit .navbar-toggle-edit .icon-bar{
   background-color: #fff;
 }
+.navbar-default .navbar-nav>li>a{
+    transition: 0.3s;
+}
+.navbar-nav>li>a {
+    color: #ffffff;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.navbar-nav>li>a:hover {
+    color: #A88471;
+    background-color: transparent;
+    transition: 0.3s;
+}
 /* END Bootstrap Config*/
+
+/* SMOOTH Scroll */
+a[ id= "toWhatis" ]:target ~ #whatis {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "toTimetable" ]:target ~ #timetable {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+/* END SMOOTH Scroll */
 
 /* Edit Font in Mobile */
 @media screen and
