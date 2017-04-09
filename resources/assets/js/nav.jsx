@@ -26,10 +26,11 @@ import jump from './jump.js';
              <div className="navbar-collapse navbar-collapse-edit collapse text-center" id="bbnav" aria-expanded="false" style={{height: '1px'}}>
                <div className="container">
                  <ul className="nav navbar-nav">
-                   <li className="active"><a className="Brand">Brown Bag 2.0</a></li>
+                   <li className="active"><a className="Brand" onClick={()=>{jump('#main', { duration: 500 })}}>Brown Bag 2.0</a></li>
                    <li><a href="https://goo.gl/IGNFOf">REGISTER</a></li>
-                   <li><a onClick={()=>{jump('#whatis')}}>WHAT'S</a></li>
-                   <li><a onClick={()=>{jump('#timetable')}}>TIMETABLE</a></li>
+                   <li><a onClick={()=>{jump('#whatis', { duration: 700 , offset : -50 })}}>WHAT'S</a></li>
+                   <li><a onClick={()=>{jump('#timetable', { duration: 700 , offset : -50 })}}>TIMETABLE</a></li>
+                   <li><a onClick={()=>{jump('#sponsor', { duration: 700 , offset : -49 })}}>SPONSOR</a></li>
                    <li><a href="#">SESSIONS</a></li>
                  </ul>
                </div>
