@@ -218,25 +218,19 @@ body{
  }
 }
 /* END Edit Font in Mobile */
+/* TABLET */
+@media screen and (min-width : 768px){
+
+}
+/* END TABLET*/
 
 /* Desktops and Laptops */
-@media only screen  and 
-(min-width : 1224px) {
+@media screen and (min-width: 992px){
 
 }
 
-@media only screen  and 
-(min-width : 1360px) {
+@media (min-width:1400px){
 
 }
 
-@media only screen  and 
-(min-width : 1600px) {
-
-}
-
-@media only screen  and 
-(min-width : 1900px) {
-
-}
 /* END Desktops and Laptops */
