@@ -195,9 +195,16 @@ body{
 /* END CONTACT */
 
 /* Bootstrap Config */
+.navbar-collapse{
+  transition: 0.3s;
+}
+.navbar-nav{
+  transition: 0.3s;
+}
 .navbar-default-edit{
   background: transparent;
   border-color: transparent;
+  transition: 0.3s;
 }
 .navbar-default .navbar-toggle-edit{
   background: transparent;
@@ -218,7 +225,12 @@ body{
 .navbar-default .navbar-nav>li>a{
     transition: 0.3s;
 }
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-nav>li>a {
+    color: #ffffff;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.navbar-nav>li>a:hover {
     color: #A88471;
     background-color: transparent;
     transition: 0.3s;
