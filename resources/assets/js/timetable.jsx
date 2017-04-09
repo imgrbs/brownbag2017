@@ -9,7 +9,7 @@ class TimeTable extends React.Component{
     return (
       <section id="timetable" className="container-fluid">
         <div className="row">
-          <div className="col-xs-11 col-xs-offset-1 col-md-10 col-md-offset-2 timetable">
+          <div className="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 timetable">
             <h1>TIMETABLE</h1>
             <h4>22 April 2017, KMUTT</h4>
           </div>
@@ -57,7 +57,7 @@ class TimeTable extends React.Component{
 class Time extends React.Component{
   render(){
     return (
-      <div className="col-xs-11 col-xs-offset-1 col-md-2 col-md-offset-2 time">{this.props.time}</div>
+      <div className="col-xs-11 col-xs-offset-1 col-sm-3 col-sm-offset-2 col-md-2 col-md-offset-2 time">{this.props.time}</div>
     );
   }
 }
@@ -65,7 +65,7 @@ class Time extends React.Component{
 class Event extends React.Component{
   render(){
     return (
-      <div className="col-xs-11 col-xs-offset-1 col-md-6 col-md-offset-0 event">{this.props.event}</div>
+      <div className="col-xs-11 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 event">{this.props.event}</div>
     );
   }
 }

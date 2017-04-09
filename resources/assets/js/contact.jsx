@@ -13,7 +13,7 @@ class Contact extends React.Component {
         <div className="row">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-4">
+              <div className="col-xs-12 col-sm-3 col-sm-offset-1">
                 <img src={Bag} className="baglogo" alt=""/>
                 <h2>Brown Bag 2.0</h2>
                 <h3>by Alchemist</h3>
