@@ -1,6 +1,10 @@
 @import url('fontface-thaisansneue.css');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+html{
+  overflow-x: hidden;
+}
+
 body{
   margin: 0;
   font-family: 'Thaisans Neue for Web', sans-serif !important;
@@ -8,7 +12,6 @@ body{
   background-size: cover;
   background-attachment: fixed;
   background-position: top;
-  scroll-behavior: smooth;
 }
 
 .SIT{
@@ -19,6 +22,10 @@ body{
 .logo{
   max-width: 80px;
   margin: 2em;
+}
+
+.Brand{
+  font-size: 1.2em;
 }
 
 /* FIRST SECTION */
@@ -90,6 +97,7 @@ body{
   color: #fff;
   font-size: 1.5em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .whatis-btn{
@@ -226,28 +234,18 @@ body{
     transition: 0.3s;
 }
 .navbar-nav>li>a {
+    cursor: pointer;
     color: #ffffff;
     background-color: transparent;
     transition: 0.3s;
 }
 .navbar-nav>li>a:hover {
+    cursor: pointer;
     color: #A88471;
     background-color: transparent;
     transition: 0.3s;
 }
 /* END Bootstrap Config*/
-
-/* SMOOTH Scroll */
-a[ id= "toWhatis" ]:target ~ #whatis {
-    -webkit-transform: translateY( 0px);
-    transform: translateY( 0px );
-}
-
-a[ id= "toTimetable" ]:target ~ #timetable {
-    -webkit-transform: translateY( -500px );
-    transform: translateY( -500px );
-}
-/* END SMOOTH Scroll */
 
 /* Edit Font in Mobile */
 @media screen and

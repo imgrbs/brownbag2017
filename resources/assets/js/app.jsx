@@ -20,7 +20,6 @@ class App extends React.Component{
         <Sponsor />
         <Contact />
         <Nav />
-        
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import jump from './jump.js';
 
  class Nav extends React.Component {
    constructor(){
@@ -9,7 +10,6 @@ import React from 'react';
      return (
        <div className="container-fluid">
          <div className="row">
-
            <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
              <div className="navbar-header">
                <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false" style={{
@@ -26,8 +26,10 @@ import React from 'react';
              <div className="navbar-collapse navbar-collapse-edit collapse text-center" id="bbnav" aria-expanded="false" style={{height: '1px'}}>
                <div className="container">
                  <ul className="nav navbar-nav">
-                   <li className="active"><a href="#whatis" id="toWhatis">WHAT'S</a></li>
-                   <li><a href="#timetable" id="toTimetable">TIMETABLE</a></li>
+                   <li className="active"><a className="Brand">Brown Bag 2.0</a></li>
+                   <li><a href="https://goo.gl/IGNFOf">REGISTER</a></li>
+                   <li><a onClick={()=>{jump('#whatis')}}>WHAT'S</a></li>
+                   <li><a onClick={()=>{jump('#timetable')}}>TIMETABLE</a></li>
                    <li><a href="#">SESSIONS</a></li>
                  </ul>
                </div>
