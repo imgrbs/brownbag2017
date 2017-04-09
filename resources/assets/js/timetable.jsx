@@ -57,7 +57,7 @@ class Time extends React.Component{
     return (
       <div className="col-xs-12 col-md-2 col-md-offset-2 time">{this.props.time}</div>
     );
-  }  
+  }
 }
 
 class Event extends React.Component{
@@ -65,7 +65,7 @@ class Event extends React.Component{
     return (
       <div className="col-xs-12 col-md-8 event">{this.props.event}</div>
     );
-  }  
+  }
 }
 
 export default TimeTable;
