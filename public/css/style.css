@@ -2,31 +2,31 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body{
-    margin: 0;
-    font-family: 'Thaisans Neue for Web', sans-serif !important;
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top;
+  margin: 0;
+  font-family: 'Thaisans Neue for Web', sans-serif !important;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
 }
 
 .SIT{
-    max-width: 200px;
-    margin: 1em;
+  max-width: 200px;
+  margin: 1em;
 }
 
 .logo{
-    max-width: 80px;
-    margin: 2em;
+  max-width: 80px;
+  margin: 2em;
 }
 
 /* FIRST SECTION */
 #main{
-    background-color: rgba(179, 141, 125, 0.7);
-    color: #5F3307;
-    height: auto;
-    min-height: 560px;
-    color: #fff;
+  background-color: rgba(179, 141, 125, 0.7);
+  color: #5F3307;
+  height: auto;
+  min-height: 560px;
+  color: #fff;
 }
 
 .mainBag{
@@ -102,36 +102,44 @@ body{
   background-color: #EEC1A2;
   color: #5F3307;
   height: auto;
-  padding: 3em 2em 10em 2em;
+  padding: 3em 2em 6em 2em;
 }
 /* END WHATIS */
 
 /* TIMETABLE */
 #timetable{
-    background-color: rgba(95, 51, 7, 0.8);
-    color: #fff;
-    height: 46em;
-    padding: 2em 0em 2em 2.25em;
+  background-color: rgba(95, 51, 7, 0.8);
+  color: #fff;
+  height: auto;
+}
+
+.timetable{
+  margin-top: 2em;
+}
+
+.bodyTimetable{
+  margin-top: 1em;
+  margin-bottom: 6em;
 }
 
 .time{
-    color: #F0E6B1;
-    font-size: 1.4em;
+  color: #F0E6B1;
+  font-size: 1.4em;
 }
 
 .event{
-    color: #fff;
-    font-size: 1.25em;
+  color: #fff;
+  font-size: 1.25em;
 }
 /* END TIMETABLE */
 
 /* SPONSOR */
 #sponsor{
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    height: auto;
-    min-height: 568px;
-    padding: 5em 2em;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  height: auto;
+  min-height: 568px;
+  padding: 5em 2em;
 }
 .session-btn{
   border: 2px solid white;
