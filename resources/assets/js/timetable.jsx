@@ -42,7 +42,7 @@ class Time extends React.Component{
 class Event extends React.Component{
   render(){
     return (
-      <div className="col-xs-6 col-xs-offset-4 col-sm-8 col-md-8 event">{this.props.event}</div>
+      <div className="col-xs-12 col-sm-8 col-sm-offset-4 col-md-8 col-md-offset-4 event">{this.props.event}</div>
     );
   }  
 }
