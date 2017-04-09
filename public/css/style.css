@@ -73,7 +73,7 @@ body{
 .boxDetail h2{
   margin-top: 6px;
   margin-bottom: 0;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .boxDetail h4{
@@ -86,13 +86,14 @@ body{
 }
 
 .mainMenu a{
-  margin: 0 2em;
+  margin: 0 1em;
   color: #fff;
+  font-size: 1.5em;
   text-decoration: none;
 }
 
 .whatis-btn{
-  border-bottom:solid 0.2em;
+  border-bottom: solid 0.1em;
 }
 /* END FIRST SECTOR */
 
