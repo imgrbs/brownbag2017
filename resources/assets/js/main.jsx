@@ -15,7 +15,7 @@ class WhatIs extends React.Component{
                     <img src={Bag} alt="" className="mainBag"/>
                 </div>
             </div>
-            <div className="col-xs-12 boxDetail">
+            <div className="col-xs-12 boxDetail text-center">
                 <h1>Brown Bag 2.0</h1>
                 <p>
                     <h2>22 April 2017</h2>
@@ -24,8 +24,8 @@ class WhatIs extends React.Component{
                     <h4>KMUTT</h4>
                 </p>
                 <div className="col-xs-12 text-center mainMenu">
-                    <button>WHAT'S</button>
-                    <button>SESSIONS</button>
+                    <a href="" className="">WHAT'S</a>
+                    <a href="" className="">SESSIONS</a>
                 </div>
             </div>
         </div>
