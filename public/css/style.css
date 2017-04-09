@@ -237,6 +237,18 @@ body{
 }
 /* END Bootstrap Config*/
 
+/* SMOOTH Scroll */
+a[ id= "toWhatis" ]:target ~ #whatis {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "toTimetable" ]:target ~ #timetable {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+/* END SMOOTH Scroll */
+
 /* Edit Font in Mobile */
 @media screen and
 (min-width:360px) {
