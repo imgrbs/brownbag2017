@@ -200,7 +200,7 @@ body{
 .navbar-collapse-edit{
   background-color: rgba(0, 0, 0, 0.5);
 }
-.navbar-default-edit .navbar-nav>li>a{
+.navbar-collapse-edit li a{
   color: white;
 }
 .navbar-default-edit .navbar-toggle-edit .icon-bar{
