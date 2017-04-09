@@ -160,6 +160,9 @@ body{
     min-height: 568px;
     padding: 2em 2em;
 }
+#contact a{
+    color: wheat;
+}
 #contact .baglogo{
   height: 7em;
 }
@@ -227,7 +230,9 @@ body{
 /* END Edit Font in Mobile */
 /* TABLET */
 @media screen and (min-width : 768px){
-
+ #contact{
+    min-height: 28em;
+ }
 }
 /* END TABLET*/
 

@@ -24,8 +24,8 @@ import React from 'react';
 
               <div className="navbar-collapse navbar-collapse-edit collapse" id="bbnav" aria-expanded="false" style={{height: '1px'}}>
                 <ul className="nav navbar-nav">
-                  <li className="active"><a href="#">WHAT'S</a></li>
-                  <li><a href="#">TIMETABLE</a></li>
+                  <li className="active"><a href="#whatis">WHAT'S</a></li>
+                  <li><a href="#timetable">TIMETABLE</a></li>
                   <li><a href="#">SESSIONS</a></li>
                 </ul>
               </div>

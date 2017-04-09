@@ -21,11 +21,15 @@ class Contact extends React.Component {
 
               <div className="col-xs-12 col-sm-4">
                 <h3>CONNECT WITH US</h3>
-                <i className="fa fa-facebook icon" style={{
-                  paddingLeft:'0.7em',
-                  paddingRight:'0.7em',
-                }}></i>
-                <i className="fa fa-twitter icon"></i>
+                <a href="https://fb.com/BrownBagSITKMUTT/">
+                  <i className="fa fa-facebook icon" style={{
+                    paddingLeft:'0.7em',
+                    paddingRight:'0.7em',
+                  }}></i>
+                </a>
+                <a href="#">
+                  <i className="fa fa-twitter icon"></i>
+                </a>
               </div>
 
               <div className="col-xs-12 col-sm-4">
