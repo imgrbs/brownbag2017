@@ -16,10 +16,11 @@ class App extends React.Component{
       <div>
         <Main />
         <WhatIs />
-        <Nav />
         <TimeTable />
         <Sponsor />
         <Contact />
+        <Nav />
+        
       </div>
     );
   }
