@@ -20,6 +20,7 @@ body{
     margin: 2em;
 }
 
+/* FIRST SECTION */
 #main{
     background-color: rgba(179, 141, 125, 0.7);
     color: #5F3307;
@@ -46,11 +47,15 @@ body{
 }
 
 .fa-clock-o{
-  font-size: 3.25em;
+  font-size: 2.95em;
+  margin-top: 0.16em;
+  margin-left: 0.2em;
 }
 
 .fa-map-marker{
-  font-size: 3.5em;
+  font-size: 2.95em;
+  margin-left: 0.35em;
+  margin-top: 0.125em;
 }
 
 .center{
@@ -64,38 +69,48 @@ body{
 .boxDetail h1{
   text-align: center;
 }
+
 .boxDetail h2{
   margin-top: 6px;
   margin-bottom: 0;
-  font-size: 1.8em;
+  font-size: 1.3em;
 }
+
 .boxDetail h4{
   margin-top: 0;
   font-size: 1em;
 }
 
+.mainMenu{
+  margin : 2.5em 0;
+}
+
 .mainMenu a{
-  margin: 0 2em;
+  margin: 0 1em;
   color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 .whatis-btn{
-  border-bottom:solid 0.2em;
+  border-bottom: solid 0.1em;
 }
+/* END FIRST SECTOR */
 
+/* WHATIS */
 #whatis{
-    background-color: #EEC1A2;
-    color: #5F3307;
-    height: auto;
-    min-height: 568px;
-    padding: 2em 2em;
+  background-color: #EEC1A2;
+  color: #5F3307;
+  height: auto;
+  padding: 3em 2em 10em 2em;
 }
+/* END WHATIS */
 
-
+/* TIMETABLE */
 #timetable{
     background-color: rgba(95, 51, 7, 0.8);
     color: #fff;
-    height: 53em;
+    height: 46em;
     padding: 2em 0em 2em 2.25em;
 }
 
@@ -108,7 +123,9 @@ body{
     color: #fff;
     font-size: 1.25em;
 }
+/* END TIMETABLE */
 
+/* SPONSOR */
 #sponsor{
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
@@ -125,7 +142,7 @@ body{
   color: rgba(168, 132, 113, 0.85);
   text-decoration: none;
 }
-
+/* END SPONSOR */
 
 /* CONTACT */
 #contact{
@@ -180,3 +197,46 @@ body{
   background-color: #fff;
 }
 /* END Bootstrap Config*/
+
+/* Edit Font in Mobile */
+@media screen and
+(min-width:360px) {
+ #whatis h1{
+   font-size: 40px;
+ }
+ #whatis span{
+   font-size: 15px;
+ }
+}
+@media screen and
+(min-width:412px) {
+ #whatis h1{
+   font-size: 46px;
+ }
+ #whatis span{
+   font-size: 20px;
+ }
+}
+/* END Edit Font in Mobile */
+
+/* Desktops and Laptops */
+@media only screen  and 
+(min-width : 1224px) {
+
+}
+
+@media only screen  and 
+(min-width : 1360px) {
+
+}
+
+@media only screen  and 
+(min-width : 1600px) {
+
+}
+
+@media only screen  and 
+(min-width : 1900px) {
+
+}
+/* END Desktops and Laptops */

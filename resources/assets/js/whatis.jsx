@@ -9,7 +9,7 @@ class WhatIs extends React.Component{
     return (
       <section id="whatis" className="container-fluid">
         <div className="row">
-            <div className="col-xs-12">
+            <div className="col-xs-12 col-md-8 col-md-offset-2">
                 <h1>WHAT IS BROWN BAG?</h1>
                     <br/>
                 <p>

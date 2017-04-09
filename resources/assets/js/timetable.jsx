@@ -19,7 +19,8 @@ class TimeTable extends React.Component{
         <Time time="14:20 - 15:00" />
         <Event event="Session II" />
         <Time time="15:00 - 15:30" />
-        <Event event="พักรับประทานอาหารว่าง และ แลกเปลี่ยนกันตามอัธยาศัย" />
+        <Event event="พักรับประทานอาหารว่าง และ" />
+        <Event event="แลกเปลี่ยนกันตามอัธยาศัย" />
         <Time time="15:30 - 16:10" />
         <Event event="Session III" />
         <Time time="16:10 - 16:50" />
