@@ -34,14 +34,53 @@ body{
 }
 
 .boxDetail{
+  text-align: left;
   height: 21.5em;
   margin-top: 2em;
   background-color: rgba(168, 132, 113, 0.85);
 }
 
+.icon-main{
+  text-align: center;
+  padding: 0;
+}
+
+.fa-clock-o{
+  font-size: 3.25em;
+}
+
+.fa-map-marker{
+  font-size: 3.5em;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.detail-main{
+  padding-left: 0.75em;
+}
+
+.boxDetail h1{
+  text-align: center;
+}
+.boxDetail h2{
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-size: 1.8em;
+}
+.boxDetail h4{
+  margin-top: 0;
+  font-size: 1em;
+}
+
 .mainMenu a{
   margin: 0 2em;
   color: #fff;
+}
+
+.whatis-btn{    
+  border-bottom:solid 0.2em;
 }
 
 #whatis{
