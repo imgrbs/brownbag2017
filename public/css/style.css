@@ -22,8 +22,7 @@ body{
 
 /* FIRST SECTION */
 #main{
-  background-color: rgba(179, 141, 125, 0.7);
-  color: #5F3307;
+  background-color: rgba(0, 0, 0, 0.5);
   height: auto;
   min-height: 560px;
   color: #fff;
@@ -38,7 +37,7 @@ body{
   text-align: left;
   height: 21.5em;
   margin-top: 2em;
-  background-color: rgba(168, 132, 113, 0.85);
+  background-color: rgba(142, 110, 85, 0.8);
 }
 
 .icon-main{
@@ -234,7 +233,35 @@ body{
 
 /* Desktops and Laptops */
 @media screen and (min-width: 992px){
-
+  .mainBag{
+    margin-top: 5em;
+    height: 28em;
+  }
+  .boxDetail{
+    height: 40.5em;
+    margin-top: 0;
+  }
+  .boxDetail h1{
+    font-size: 3.5em;
+    text-align: left;
+    margin-top: 3em;
+    margin-left: 1.5em;
+  }
+  .boxDetail h2{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 1.8em;
+  }
+  .boxDetail h4{
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  .boxDetail .row{
+    margin-top: 2em;
+  }
+  .mainMenu a:first-child{
+    margin-left: 4em;
+  }
 }
 
 @media (min-width:1400px){

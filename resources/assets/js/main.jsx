@@ -10,15 +10,15 @@ class WhatIs extends React.Component{
     return (
       <section id="main" className="container-fluid">
         <div className="row">
-            <div className="col-xs-12">
+            <div className="col-xs-12 col-md-6">
                 <div className="col-xs-12 text-center">
                     <img src={Bag} alt="" className="mainBag"/>
                 </div>
             </div>
-            <div className="col-xs-12 boxDetail text-center">
+            <div className="col-xs-12 col-md-6 boxDetail text-center">
                 <h1>Brown Bag 2.0</h1>
                 <div className="row">
-                  <div className="col-xs-offset-2 col-xs-2">
+                  <div className="col-xs-offset-2 col-xs-2 col-md-1 col-md-offset-2">
                     <i className="fa fa-clock-o" aria-hidden="true"></i>
                   </div>
                   <div className="col-xs-8">
@@ -28,7 +28,7 @@ class WhatIs extends React.Component{
                 </div>
 
                 <div className="row">
-                  <div className="col-xs-offset-2 col-xs-2">
+                  <div className="col-xs-offset-2 col-xs-2 col-md-1 col-md-offset-2">
                     <i className="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div className="col-xs-8">
@@ -37,12 +37,11 @@ class WhatIs extends React.Component{
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-xs-12 text-center mainMenu">
-                      <a href="#" className="whatis-btn">WHAT'S</a>
-                      <a href="#" className="session-btn">SESSIONS</a>
+                  <div className="col-xs-12 col-md-8 text-center mainMenu">
+                      <a href="#whatis" className="whatis-btn">WHAT'S</a>
+                      <a href="https://goo.gl/IGNFOf" className="session-btn">REGISTER</a>
                   </div>
                 </div>
-
             </div>
         </div>
       </section>
