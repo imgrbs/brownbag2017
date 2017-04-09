@@ -1,0 +1,377 @@
+@import url('fontface-thaisansneue.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  margin: 0;
+  font-family: 'Thaisans Neue for Web', sans-serif !important;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+.SIT{
+  max-width: 200px;
+  margin: 1em;
+}
+
+.logo{
+  max-width: 80px;
+  margin: 2em;
+}
+
+.Brand{
+  font-size: 1.2em;
+}
+
+/* FIRST SECTION */
+#main{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  min-height: 560px;
+  color: #fff;
+}
+
+.mainBag{
+  margin-top: 2em;
+  height: 17em;
+}
+
+.boxDetail{
+  text-align: left;
+  height: 21.5em;
+  margin-top: 2em;
+  background-color: rgba(142, 110, 85, 0.8);
+}
+
+.icon-main{
+  text-align: center;
+  padding: 0;
+}
+
+.fa-clock-o{
+  font-size: 2.95em;
+  margin-top: 0.16em;
+  margin-left: 0.2em;
+}
+
+.fa-map-marker{
+  font-size: 2.95em;
+  margin-left: 0.35em;
+  margin-top: 0.125em;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.detail-main{
+  padding-left: 0.75em;
+}
+
+.boxDetail h1{
+  text-align: center;
+}
+
+.boxDetail h2{
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+
+.boxDetail h4{
+  margin-top: 0;
+  font-size: 1em;
+}
+
+.mainMenu{
+  margin : 2.5em 0;
+}
+
+.mainMenu a{
+  margin: 0 1em;
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whatis-btn{
+  border-bottom: solid 0.07em;
+  transition: 0.2s;
+}
+.whatis-btn:hover{
+  border-bottom: solid 0.15em;
+  transition: 0.2s;
+}
+.session-btn{
+  border: 2px solid white;
+  padding:0.3em 0.8em 0.3em 0.8em;
+  transition: 0.3s;
+}
+.session-btn:hover{
+  background-color: white;
+  color: rgba(168, 132, 113, 0.85);
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+/* END FIRST SECTOR */
+
+/* WHATIS */
+#whatis{
+  background-color: #EEC1A2;
+  color: #5F3307;
+  height: auto;
+  padding: 3em 2em 6em 2em;
+}
+/* END WHATIS */
+
+/* TIMETABLE */
+#timetable{
+  background-color: rgba(95, 51, 7, 0.8);
+  color: #fff;
+  height: auto;
+}
+
+.timetable{
+  margin-top: 2em;
+}
+
+.bodyTimetable{
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+
+.time{
+  color: #F0E6B1;
+  font-size: 1.4em;
+}
+
+.event{
+  color: #fff;
+  font-size: 1.25em;
+}
+/* END TIMETABLE */
+
+/* SPONSOR */
+#sponsor{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  height: auto;
+  min-height: 568px;
+  padding: 5em 2em;
+}
+/* END SPONSOR */
+
+/* CONTACT */
+#contact{
+    background-color: #8E6F56;
+    color: wheat;
+    height: auto;
+    position: relative;
+    min-height: 568px;
+    padding: 2em 2em;
+}
+#contact a{
+    color: wheat;
+}
+#contact .baglogo{
+  height: 7em;
+}
+#contact .icon{
+  background-color: #70584B;
+  padding: 0.5em;
+  border-radius: 20px;
+  margin-left: 1em;
+}
+#contact i{
+  font-size: 1.5em;
+}
+#contact .endline{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+  background-color: #553B25;
+}
+/* END CONTACT */
+
+/* Bootstrap Config */
+.navbar-collapse{
+  transition: 0.3s;
+}
+.navbar-nav{
+  transition: 0.3s;
+}
+.navbar-default-edit{
+  background: transparent;
+  border-color: transparent;
+  transition: 0.3s;
+}
+.navbar-default .navbar-toggle-edit{
+  background: transparent;
+  border-color : #fff;
+}
+.navbar-default .navbar-toggle-edit:focus, .navbar-default .navbar-toggle-edit:hover{
+  background: transparent;
+}
+.navbar-collapse-edit{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.navbar-collapse-edit li a{
+  color: white;
+}
+.navbar-default-edit .navbar-toggle-edit .icon-bar{
+  background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+    transition: 0.3s;
+}
+.navbar-nav>li>a {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: transparent;
+    transition: 0.3s;
+}
+.navbar-nav>li>a:hover {
+    cursor: pointer;
+    color: #A88471;
+    background-color: transparent;
+    transition: 0.3s;
+}
+/* END Bootstrap Config*/
+
+/* Edit Font in Mobile */
+@media screen and
+(min-width:360px) {
+ #whatis h1{
+   font-size: 40px;
+ }
+ #whatis span{
+   font-size: 15px;
+ }
+}
+@media screen and
+(min-width:412px) {
+ #whatis h1{
+   font-size: 46px;
+ }
+ #whatis span{
+   font-size: 20px;
+ }
+}
+/* END Edit Font in Mobile */
+/* TABLET */
+@media screen and (min-width : 768px){
+  .mainBag{
+    margin-top: 12.5em;
+    height: 18em;
+  }
+  .boxDetail{
+    height: 40.5em;
+    margin-top: 0;
+  }
+  .boxDetail h1{
+    font-size: 3em;
+    text-align: left;
+    margin-top: 3em;
+    margin-left: 1.5em;
+  }
+  .boxDetail h2{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+  .boxDetail h4{
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  .boxDetail .row{
+    margin-top: 2em;
+  }
+  .mainMenu a:first-child{
+    margin-left: 2.7em;
+  }
+  .time{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  .event{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  #contact{
+      min-height: 28em;
+  }
+}
+
+@media screen and (min-device-width: 1024px){
+  .boxDetail h2 {
+      margin-left: 1em;
+  }
+  .boxDetail h4 {
+      margin-left: 1em;
+  }
+}
+/* END TABLET*/
+
+
+
+/* Desktops and Laptops */
+@media screen and (min-width: 992px){
+  .mainBag{
+    margin-top: 5em;
+    height: 28em;
+  }
+  .boxDetail{
+    height: 40.5em;
+    margin-top: 0;
+  }
+  .boxDetail h1{
+    font-size: 3.5em;
+    text-align: left;
+    margin-top: 3em;
+    margin-left: 1.5em;
+  }
+  .boxDetail h2{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 1.8em;
+  }
+  .boxDetail h4{
+    margin-top: 0;
+    font-size: 1.5em;
+  }
+  .boxDetail .row{
+    margin-top: 2em;
+  }
+  .mainMenu a:first-child{
+    margin-left: 4em;
+  }
+}
+@media (min-width:1400px){
+
+}
+
+/* END Desktops and Laptops */
+
+
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
