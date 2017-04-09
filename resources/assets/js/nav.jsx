@@ -9,7 +9,7 @@ import React from 'react';
      return (
        <div className="container-fluid">
          <div className="row">
-           <nav className="navbar navbar-default navbar-default-edit navbar-fixed-top">
+           <nav id="nav" className="navbar navbar-default navbar-default-edit navbar-fixed-top" data-spy="affix" data-offset-top="197">
                <div className="navbar-header">
                  <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false" style={{
                    marginRight : '1em',

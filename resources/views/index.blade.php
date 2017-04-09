@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('js/bootstrap.min.js')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#nav" data-offset="15">
     <div id="root"></div>
 
     <script src="{{asset('js/vendor.js')}}"></script>

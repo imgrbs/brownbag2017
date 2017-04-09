@@ -230,9 +230,17 @@ body{
 /* END Edit Font in Mobile */
 /* TABLET */
 @media screen and (min-width : 768px){
- #contact{
-    min-height: 28em;
- }
+  .time{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  .event{
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+  #contact{
+      min-height: 28em;
+  }
 }
 /* END TABLET*/
 
