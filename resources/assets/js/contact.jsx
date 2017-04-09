@@ -38,7 +38,7 @@ class Contact extends React.Component {
             </div>
           </div>
         </div>
-
+        <div className="endline"></div>
       </section>
     );
   }
