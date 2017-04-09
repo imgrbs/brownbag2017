@@ -198,6 +198,7 @@ body{
 }
 /* END Bootstrap Config*/
 
+/* Edit Font in Mobile */
 @media screen and
 (min-width:360px) {
  #whatis h1{
@@ -216,3 +217,26 @@ body{
    font-size: 20px;
  }
 }
+/* END Edit Font in Mobile */
+
+/* Desktops and Laptops */
+@media only screen  and 
+(min-width : 1224px) {
+
+}
+
+@media only screen  and 
+(min-width : 1360px) {
+
+}
+
+@media only screen  and 
+(min-width : 1600px) {
+
+}
+
+@media only screen  and 
+(min-width : 1900px) {
+
+}
+/* END Desktops and Laptops */
