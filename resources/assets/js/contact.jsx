@@ -12,27 +12,22 @@ class Contact extends React.Component {
       <section id="contact" className="container-fluid">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12">
+            <div className="col-xs-12 col-sm-4">
               <img src={Bag} className="baglogo" alt=""/>
-            </div>
-
-            <div className="col-xs-12">
               <h2>Brown Bag 2.0</h2>
               <h3>by Alchemist</h3>
             </div>
 
-            <div className="col-xs-12">
+            <div className="col-xs-12 col-sm-4">
               <h3>CONNECT WITH US</h3>
-            </div>
-
-            <div className="col-xs-12">
               <i className="fa fa-facebook icon" style={{
                 paddingLeft:'0.7em',
                 paddingRight:'0.7em',
               }}></i>
               <i className="fa fa-twitter icon"></i>
             </div>
-            <div className="col-xs-12">
+
+            <div className="col-xs-12 col-sm-4">
               <h4>CONTACT US</h4>
               <h4>Alchemist@st.sit.kmutt.ac.th</h4>
             </div>
