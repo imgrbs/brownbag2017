@@ -230,6 +230,35 @@ body{
 /* END Edit Font in Mobile */
 /* TABLET */
 @media screen and (min-width : 768px){
+  .mainBag{
+    margin-top: 12.5em;
+    height: 18em;
+  }
+  .boxDetail{
+    height: 40.5em;
+    margin-top: 0;
+  }
+  .boxDetail h1{
+    font-size: 3em;
+    text-align: left;
+    margin-top: 3em;
+    margin-left: 1.5em;
+  }
+  .boxDetail h2{
+    margin-top: 8px;
+    margin-bottom: 0;
+    font-size: 1.5em;
+  }
+  .boxDetail h4{
+    margin-top: 0;
+    font-size: 1.2em;
+  }
+  .boxDetail .row{
+    margin-top: 2em;
+  }
+  .mainMenu a:first-child{
+    margin-left: 2.7em;
+  }
   .time{
     margin-top: 0.25em;
     margin-bottom: 0.25em;
@@ -242,7 +271,18 @@ body{
       min-height: 28em;
   }
 }
+
+@media screen and (min-device-width: 1024px){
+  .boxDetail h2 {
+      margin-left: 1em;
+  }
+  .boxDetail h4 {
+      margin-left: 1em;
+  }
+}
 /* END TABLET*/
+
+
 
 /* Desktops and Laptops */
 @media screen and (min-width: 992px){
@@ -276,7 +316,6 @@ body{
     margin-left: 4em;
   }
 }
-
 @media (min-width:1400px){
 
 }
