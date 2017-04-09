@@ -99,11 +99,10 @@ body{
 
 /* WHATIS */
 #whatis{
-    background-color: #EEC1A2;
-    color: #5F3307;
-    height: auto;
-    min-height: 568px;
-    padding: 2em 2em;
+  background-color: #EEC1A2;
+  color: #5F3307;
+  height: auto;
+  padding: 3em 2em 10em 2em;
 }
 /* END WHATIS */
 
@@ -111,7 +110,7 @@ body{
 #timetable{
     background-color: rgba(95, 51, 7, 0.8);
     color: #fff;
-    height: 53em;
+    height: 46em;
     padding: 2em 0em 2em 2.25em;
 }
 
@@ -198,3 +197,22 @@ body{
   background-color: #fff;
 }
 /* END Bootstrap Config*/
+
+@media screen and
+(min-width:360px) {
+ #whatis h1{
+   font-size: 40px;
+ }
+ #whatis span{
+   font-size: 15px;
+ }
+}
+@media screen and
+(min-width:412px) {
+ #whatis h1{
+   font-size: 46px;
+ }
+ #whatis span{
+   font-size: 20px;
+ }
+}
