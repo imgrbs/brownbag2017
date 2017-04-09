@@ -79,7 +79,7 @@ body{
   color: #fff;
 }
 
-.whatis-btn{    
+.whatis-btn{
   border-bottom:solid 0.2em;
 }
 
@@ -115,6 +115,15 @@ body{
     height: auto;
     min-height: 568px;
     padding: 5em 2em;
+}
+.session-btn{
+  border: 2px solid white;
+  padding:0.3em 0.8em 0.3em 0.8em;
+}
+.session-btn:hover{
+  background-color: white;
+  color: rgba(168, 132, 113, 0.85);
+  text-decoration: none;
 }
 
 

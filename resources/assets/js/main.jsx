@@ -54,10 +54,13 @@ class WhatIs extends React.Component{
                         <h4>KMUTT</h4>
                     </span>
                 </p> */}
-                <div className="col-xs-12 text-center mainMenu">
-                    <a href="#" className="whatis-btn">WHAT'S</a>
-                    <a href="#" className="">SESSIONS</a>
+                <div className="row" style={{marginTop:'1.4em'}}>
+                  <div className="col-xs-12 text-center mainMenu">
+                      <a href="#" className="whatis-btn">WHAT'S</a>
+                      <a href="#" className="session-btn">SESSIONS</a>
+                  </div>
                 </div>
+
             </div>
         </div>
       </section>
