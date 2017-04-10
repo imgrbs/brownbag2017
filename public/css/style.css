@@ -285,6 +285,7 @@ body{
 .navbar-inverse-edit{
   background-color: transparent;
   border-color: transparent;
+  border: 0px;
 }
 .navbar-inverse-edit .navbar-toggle{
   border-color: #fff;
