@@ -124,10 +124,29 @@ body{
 
 /* WHATIS */
 #whatis{
-  background-color: #EEC1A2;
+  background-color: #fbd0b3;
   color: #5F3307;
   height: auto;
   padding: 3em 2em 6em 2em;
+}
+#whatis blockquote{
+  border-left: 5px solid #5F3307;
+}
+#whatis b{
+  font-size: 1.4em;
+}
+#whatis span{
+  font-size: 1.1em;
+  letter-spacing: 0.0425em;    
+  line-height: 1.58;    
+  font-weight: 400;
+  font-style: normal;
+}
+#whatis span:first-child{
+  font-size: 19px;
+}
+#whatis ol li{
+  font-size: 17px;
 }
 /* END WHATIS */
 
@@ -249,22 +268,28 @@ body{
 
 /* Edit Font in Mobile */
 @media screen and
-(min-width:360px) {
- #whatis h1{
-   font-size: 40px;
- }
- #whatis span{
-   font-size: 15px;
- }
+(min-width:320px){
+  .h1Config{
+    font-size: 25px;
+  }
 }
 @media screen and
-(min-width:412px) {
- #whatis h1{
-   font-size: 46px;
- }
- #whatis span{
-   font-size: 20px;
- }
+(min-width:360px) {
+  #whatis h1{
+    font-size: 40px;
+  }
+  #whatis span{
+    font-size: 15px;
+  }
+}
+  @media screen and
+  (min-width:412px) {
+  #whatis h1{
+    font-size: 46px;
+  }
+  #whatis span{
+    font-size: 20px;
+  }
 }
 /* END Edit Font in Mobile */
 /* TABLET */
