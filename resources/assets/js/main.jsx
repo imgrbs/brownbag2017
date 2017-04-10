@@ -17,7 +17,7 @@ class WhatIs extends React.Component{
                 </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 boxDetail text-center">
-                <h1>Brown Bag 2.0</h1>
+                <h1>Brown Bag #2.0</h1>
                 <div className="row">
                   <div className="col-xs-offset-2 col-xs-2 col-md-1 col-md-offset-2">
                     <i className="fa fa-clock-o" aria-hidden="true"></i>

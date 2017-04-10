@@ -7785,7 +7785,7 @@ var Contact = function (_React$Component) {
                   _react2.default.createElement(
                     'h2',
                     null,
-                    'Brown Bag 2.0'
+                    'Brown Bag #2.0'
                   ),
                   _react2.default.createElement(
                     'h3',
@@ -7810,12 +7810,12 @@ var Contact = function (_React$Component) {
                 _react2.default.createElement('br', null),
                 _react2.default.createElement(
                   'a',
-                  { href: 'https://sitbrownbag.eventbrite.com' },
+                  { href: 'https://fb.com/BrownBagSITKMUTT/' },
                   _react2.default.createElement('img', { src: _fbicon2.default, className: 'evbLogo', alt: '' })
                 ),
                 _react2.default.createElement(
                   'a',
-                  { href: 'https://fb.com/BrownBagSITKMUTT/' },
+                  { href: 'https://sitbrownbag.eventbrite.com' },
                   _react2.default.createElement('img', { src: _evbicon2.default, className: 'evbLogo', alt: '' })
                 )
               )
@@ -7921,7 +7921,7 @@ var WhatIs = function (_React$Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'Brown Bag 2.0'
+              'Brown Bag #2.0'
             ),
             _react2.default.createElement(
               'div',
@@ -8091,7 +8091,7 @@ var Nav = function (_React$Component) {
                       { className: 'Brand', onClick: function onClick() {
                           (0, _jump2.default)('#main', { duration: 500 });
                         } },
-                      'Brown Bag 2.0'
+                      'Brown Bag #2.0'
                     )
                   ),
                   _react2.default.createElement(
