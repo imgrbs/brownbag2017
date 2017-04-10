@@ -1,5 +1,6 @@
 import React from 'react';
 import Bag from '../images/Bag.png';
+import Evb from '../images/eventbrite_logo.png';
 
 class Contact extends React.Component {
   constructor() {
@@ -17,23 +18,18 @@ class Contact extends React.Component {
                 <h2>Brown Bag 2.0</h2>
                 <h3>by Alchemist</h3>
               </div>
-
-              <div className="col-xs-12 col-sm-4">
-                <h3>CONNECT WITH US</h3>
+              <div className="col-xs-12 col-sm-4 col-sm-offset-4">
+                <h3>CONTACT US</h3>
+                <h4>alchemist@sit.kmutt.ac.th</h4>
                 <a href="https://fb.com/BrownBagSITKMUTT/">
                   <i className="fa fa-facebook icon" style={{
                     paddingLeft:'0.7em',
                     paddingRight:'0.7em',
                   }}></i>
                 </a>
-                <a href="#">
-                  <i className="fa fa-twitter icon"></i>
+                <a href="https://sitbrownbag.eventbrite.com">
+                <img src={Evb} className="evbLogo" alt=""/>
                 </a>
-              </div>
-
-              <div className="col-xs-12 col-sm-4">
-                <h3>CONTACT US</h3>
-                <h4>alchemist@sit.kmutt.ac.th</h4>
               </div>
             </div>
           </div>

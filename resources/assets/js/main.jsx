@@ -33,7 +33,7 @@ class WhatIs extends React.Component{
                     <i className="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div className="col-xs-8">
-                    <h2>SIT Building</h2>
+                    <h2>Classroom Building 2</h2>
                     <h4>KMUTT</h4>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ class WhatIs extends React.Component{
                   <div className="col-xs-12 col-sm-8 col-md-8 text-center mainMenu">
                       <a onClick={()=>{jump('#whatis', { duration: 700 , offset : -50 })}} className="whatis-btn">WHAT'S</a>
                       {/*<a href="https://goo.gl/IGNFOf" className="whatis-btn">SHARE TOPIC</a>*/}
-                      <a href="https://www.eventbrite.com/e/brown-bag-20-tickets-33578918449" className="session-btn">REGISTER</a>
+                      <a href="https://sitbrownbag.eventbrite.com" className="session-btn">REGISTER</a>
                   </div>
                 </div>
             </div>
