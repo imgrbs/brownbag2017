@@ -7731,9 +7731,13 @@ var _Bag = __webpack_require__(60);
 
 var _Bag2 = _interopRequireDefault(_Bag);
 
-var _eventbrite_logo = __webpack_require__(130);
+var _fbicon = __webpack_require__(230);
 
-var _eventbrite_logo2 = _interopRequireDefault(_eventbrite_logo);
+var _fbicon2 = _interopRequireDefault(_fbicon);
+
+var _evbicon = __webpack_require__(229);
+
+var _evbicon2 = _interopRequireDefault(_evbicon);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7769,22 +7773,30 @@ var Contact = function (_React$Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xs-12 col-sm-3 col-sm-offset-1' },
-                _react2.default.createElement('img', { src: _Bag2.default, className: 'baglogo', alt: '' }),
+                { className: 'col-xs-12 col-sm-3 col-sm-offset-1 col-md-5 col-md-offset-1' },
                 _react2.default.createElement(
-                  'h2',
-                  null,
-                  'Brown Bag 2.0'
+                  'div',
+                  { className: 'col-md-3' },
+                  _react2.default.createElement('img', { src: _Bag2.default, className: 'baglogo', alt: '' })
                 ),
                 _react2.default.createElement(
-                  'h3',
-                  null,
-                  'by Alchemist'
+                  'div',
+                  { className: 'col-md-9 text-left' },
+                  _react2.default.createElement(
+                    'h2',
+                    null,
+                    'Brown Bag 2.0'
+                  ),
+                  _react2.default.createElement(
+                    'h3',
+                    null,
+                    'by Alchemist'
+                  )
                 )
               ),
               _react2.default.createElement(
                 'div',
-                { className: 'col-xs-12 col-sm-4 col-sm-offset-4' },
+                { className: 'col-xs-12 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-2' },
                 _react2.default.createElement(
                   'h3',
                   null,
@@ -7795,18 +7807,16 @@ var Contact = function (_React$Component) {
                   null,
                   'alchemist@sit.kmutt.ac.th'
                 ),
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://fb.com/BrownBagSITKMUTT/' },
-                  _react2.default.createElement('i', { className: 'fa fa-facebook icon', style: {
-                      paddingLeft: '0.7em',
-                      paddingRight: '0.7em'
-                    } })
-                ),
+                _react2.default.createElement('br', null),
                 _react2.default.createElement(
                   'a',
                   { href: 'https://sitbrownbag.eventbrite.com' },
-                  _react2.default.createElement('img', { src: _eventbrite_logo2.default, className: 'evbLogo', alt: '' })
+                  _react2.default.createElement('img', { src: _fbicon2.default, className: 'evbLogo', alt: '' })
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://fb.com/BrownBagSITKMUTT/' },
+                  _react2.default.createElement('img', { src: _evbicon2.default, className: 'evbLogo', alt: '' })
                 )
               )
             )
@@ -7964,13 +7974,18 @@ var WhatIs = function (_React$Component) {
               { className: 'row' },
               _react2.default.createElement(
                 'div',
-                { className: 'col-xs-12 col-sm-8 col-md-8 text-center mainMenu' },
+                { className: 'col-xs-12 col-sm-12 col-md-10 text-center mainMenu' },
                 _react2.default.createElement(
                   'a',
                   { onClick: function onClick() {
                       (0, _jump2.default)('#whatis', { duration: 700, offset: -50 });
                     }, className: 'whatis-btn' },
                   'WHAT\'S'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://goo.gl/IGNFOf', className: 'session-btn' },
+                  'SUBMIT TOPIC'
                 ),
                 _react2.default.createElement(
                   'a',
@@ -9361,12 +9376,7 @@ module.exports = __webpack_require__.p + "6c17da585f1f4258c77dea4f626197d0.svg";
 module.exports = __webpack_require__.p + "images/alchLogo.png";
 
 /***/ }),
-/* 130 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/eventbrite_logo.png";
-
-/***/ }),
+/* 130 */,
 /* 131 */,
 /* 132 */,
 /* 133 */,
@@ -18832,6 +18842,23 @@ function getNextDebugID() {
 }
 
 module.exports = getNextDebugID;
+
+/***/ }),
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/evbicon.png";
+
+/***/ }),
+/* 230 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/fbicon.png";
 
 /***/ })
 ],[95]);
