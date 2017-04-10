@@ -1,5 +1,5 @@
 import React from 'react';
-import Bag from '../images/bag.png';
+import Bag from '../images/Bag.png';
 import jump from './jump.js';
 
 class WhatIs extends React.Component{
