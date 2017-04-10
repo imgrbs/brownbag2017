@@ -10,7 +10,7 @@ import jump from './jump.js';
      return (
        <div className="container-fluid">
          <div className="row">
-           <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
+           <nav className="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
              <div className="navbar-header">
                <button type="button" className="navbar-toggle navbar-toggle-edit collapsed" data-toggle="collapse" data-target="#bbnav" aria-expanded="false" style={{
                  marginRight : '1em',

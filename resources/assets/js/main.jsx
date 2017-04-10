@@ -40,7 +40,8 @@ class WhatIs extends React.Component{
                 <div className="row">
                   <div className="col-xs-12 col-sm-8 col-md-8 text-center mainMenu">
                       <a onClick={()=>{jump('#whatis', { duration: 700 , offset : -50 })}} className="whatis-btn">WHAT'S</a>
-                      <a href="https://goo.gl/IGNFOf" className="session-btn">REGISTER</a>
+                      {/*<a href="https://goo.gl/IGNFOf" className="whatis-btn">SHARE TOPIC</a>*/}
+                      <a href="https://www.eventbrite.com/e/brown-bag-20-tickets-33578918449" className="session-btn">REGISTER</a>
                   </div>
                 </div>
             </div>

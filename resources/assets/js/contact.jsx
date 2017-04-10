@@ -2,9 +2,8 @@ import React from 'react';
 import Bag from '../images/Bag.png';
 
 class Contact extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = { }
+  constructor() {
+    super()
   }
 
   render() {
@@ -34,7 +33,7 @@ class Contact extends React.Component {
 
               <div className="col-xs-12 col-sm-4">
                 <h3>CONTACT US</h3>
-                <h4>Alchemist@st.sit.kmutt.ac.th</h4>
+                <h4>alchemist@sit.kmutt.ac.th</h4>
               </div>
             </div>
           </div>

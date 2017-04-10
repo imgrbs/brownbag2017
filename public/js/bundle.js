@@ -7737,13 +7737,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var Contact = function (_React$Component) {
   _inherits(Contact, _React$Component);
 
-  function Contact(props) {
+  function Contact() {
     _classCallCheck(this, Contact);
 
-    var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
-
-    _this.state = {};
-    return _this;
+    return _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this));
   }
 
   _createClass(Contact, [{
@@ -7809,7 +7806,7 @@ var Contact = function (_React$Component) {
                 _react2.default.createElement(
                   'h4',
                   null,
-                  'Alchemist@st.sit.kmutt.ac.th'
+                  'alchemist@sit.kmutt.ac.th'
                 )
               )
             )
@@ -7977,7 +7974,7 @@ var WhatIs = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                   'a',
-                  { href: 'https://goo.gl/IGNFOf', className: 'session-btn' },
+                  { href: 'https://www.eventbrite.com/e/brown-bag-20-tickets-33578918449', className: 'session-btn' },
                   'REGISTER'
                 )
               )
@@ -8042,7 +8039,7 @@ var Nav = function (_React$Component) {
           { className: 'row' },
           _react2.default.createElement(
             'nav',
-            { 'class': 'navbar navbar-inverse', 'data-spy': 'affix', 'data-offset-top': '500' },
+            { className: 'navbar navbar-inverse', 'data-spy': 'affix', 'data-offset-top': '500' },
             _react2.default.createElement(
               'div',
               { className: 'navbar-header' },
@@ -8172,6 +8169,10 @@ var _alchLogo = __webpack_require__(128);
 
 var _alchLogo2 = _interopRequireDefault(_alchLogo);
 
+var _kmutt_logo = __webpack_require__(229);
+
+var _kmutt_logo2 = _interopRequireDefault(_kmutt_logo);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -8202,21 +8203,22 @@ var Sponsor = function (_React$Component) {
             'div',
             { className: 'col-xs-12 text-center' },
             _react2.default.createElement(
-              'p',
+              'h1',
               null,
-              _react2.default.createElement(
-                'h1',
-                null,
-                'Sponsor'
-              ),
-              _react2.default.createElement('img', { src: _SIT2.default, alt: '', className: 'SIT' }),
-              _react2.default.createElement(
-                'h2',
-                null,
-                'Create By'
-              ),
-              _react2.default.createElement('img', { src: _alchLogo2.default, alt: '', className: 'logo' })
-            )
+              'Sponsor'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('img', { src: _kmutt_logo2.default, alt: '', className: 'KMUTT' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('img', { src: _SIT2.default, alt: '', className: 'SIT' }),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Create By'
+            ),
+            _react2.default.createElement('img', { src: _alchLogo2.default, alt: '', className: 'logo' })
           )
         )
       );
@@ -8447,56 +8449,52 @@ var WhatIs = function (_React$Component) {
                         ),
                         _react2.default.createElement("br", null),
                         _react2.default.createElement(
-                            "p",
+                            "span",
                             null,
                             _react2.default.createElement(
-                                "span",
+                                "blockquote",
                                 null,
+                                "\u0E04\u0E23\u0E31\u0E49\u0E07\u0E19\u0E35\u0E49\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E40\u0E14\u0E34\u0E19\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E35\u0E01\u0E01\u0E49\u0E32\u0E27 \u0E40\u0E0A\u0E34\u0E0D\u0E0A\u0E27\u0E19 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E46 \u0E1E\u0E35\u0E48\u0E46 \u0E19\u0E49\u0E2D\u0E07\u0E46 \u0E0D\u0E32\u0E15\u0E34\u0E2A\u0E19\u0E34\u0E17\u0E21\u0E34\u0E15\u0E23\u0E2A\u0E2B\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E40\u0E14\u0E47\u0E01\u0E46 \u0E44\u0E2D\u0E17\u0E35\u0E1A\u0E32\u0E07\u0E21\u0E14 ",
+                                _react2.default.createElement("br", null),
+                                "\u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E2D\u0E22\u0E39\u0E48\u0E20\u0E32\u0E04\u0E44\u0E2B\u0E19 \u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E44\u0E2D\u0E17\u0E35\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48 \u0E21\u0E32\u0E23\u0E48\u0E27\u0E21\u0E41\u0E1A\u0E48\u0E07\u0E02\u0E19\u0E21 \u0E1C\u0E2A\u0E21\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49\u0E01\u0E31\u0E19\u0E43\u0E19 ",
                                 _react2.default.createElement(
-                                    "blockquote",
+                                    "b",
                                     null,
-                                    "\u0E04\u0E23\u0E31\u0E49\u0E07\u0E19\u0E35\u0E49\u0E40\u0E23\u0E32\u0E02\u0E2D\u0E40\u0E14\u0E34\u0E19\u0E2B\u0E19\u0E49\u0E32\u0E02\u0E36\u0E49\u0E19\u0E2D\u0E35\u0E01\u0E01\u0E49\u0E32\u0E27 \u0E40\u0E0A\u0E34\u0E0D\u0E0A\u0E27\u0E19 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E46 \u0E1E\u0E35\u0E48\u0E46 \u0E19\u0E49\u0E2D\u0E07\u0E46 \u0E0D\u0E32\u0E15\u0E34\u0E2A\u0E19\u0E34\u0E17\u0E21\u0E34\u0E15\u0E23\u0E2A\u0E2B\u0E32\u0E22\u0E02\u0E2D\u0E07\u0E40\u0E14\u0E47\u0E01\u0E46 \u0E44\u0E2D\u0E17\u0E35\u0E1A\u0E32\u0E07\u0E21\u0E14 ",
-                                    _react2.default.createElement("br", null),
-                                    "\u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E2D\u0E22\u0E39\u0E48\u0E20\u0E32\u0E04\u0E44\u0E2B\u0E19 \u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E04\u0E38\u0E13\u0E08\u0E30\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E44\u0E2D\u0E17\u0E35\u0E2B\u0E23\u0E37\u0E2D\u0E44\u0E21\u0E48 \u0E21\u0E32\u0E23\u0E48\u0E27\u0E21\u0E41\u0E1A\u0E48\u0E07\u0E02\u0E19\u0E21 \u0E1C\u0E2A\u0E21\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49\u0E01\u0E31\u0E19\u0E43\u0E19 ",
-                                    _react2.default.createElement(
-                                        "b",
-                                        null,
-                                        "Brown Bag #2.0"
-                                    ),
-                                    " "
-                                )
-                            ),
-                            _react2.default.createElement("br", null),
+                                    "Brown Bag #2.0"
+                                ),
+                                " "
+                            )
+                        ),
+                        _react2.default.createElement("br", null),
+                        _react2.default.createElement(
+                            "h3",
+                            null,
                             _react2.default.createElement(
-                                "span",
+                                "u",
+                                null,
+                                "\u0E27\u0E31\u0E15\u0E16\u0E38\u0E1B\u0E23\u0E30\u0E2A\u0E07\u0E04\u0E4C\u0E02\u0E2D\u0E07\u0E07\u0E32\u0E19"
+                            )
+                        ),
+                        _react2.default.createElement(
+                            "span",
+                            null,
+                            _react2.default.createElement(
+                                "ol",
                                 null,
                                 _react2.default.createElement(
-                                    "h3",
+                                    "li",
                                     null,
-                                    _react2.default.createElement(
-                                        "u",
-                                        null,
-                                        "\u0E27\u0E31\u0E15\u0E16\u0E38\u0E1B\u0E23\u0E30\u0E2A\u0E07\u0E04\u0E4C\u0E02\u0E2D\u0E07\u0E07\u0E32\u0E19"
-                                    )
+                                    "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E32\u0E23\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E16\u0E48\u0E32\u0E22\u0E17\u0E2D\u0E14\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49 \u0E1B\u0E23\u0E30\u0E2A\u0E1A\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E43\u0E19\u0E14\u0E49\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08\u0E43\u0E2B\u0E49\u0E41\u0E01\u0E48\u0E1C\u0E39\u0E49\u0E2D\u0E37\u0E48\u0E19"
                                 ),
                                 _react2.default.createElement(
-                                    "ol",
+                                    "li",
                                     null,
-                                    _react2.default.createElement(
-                                        "li",
-                                        null,
-                                        "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E32\u0E23\u0E41\u0E1A\u0E48\u0E07\u0E1B\u0E31\u0E19\u0E14\u0E49\u0E27\u0E22\u0E01\u0E32\u0E23\u0E16\u0E48\u0E32\u0E22\u0E17\u0E2D\u0E14\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49 \u0E1B\u0E23\u0E30\u0E2A\u0E1A\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E43\u0E19\u0E14\u0E49\u0E32\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08\u0E43\u0E2B\u0E49\u0E41\u0E01\u0E48\u0E1C\u0E39\u0E49\u0E2D\u0E37\u0E48\u0E19"
-                                    ),
-                                    _react2.default.createElement(
-                                        "li",
-                                        null,
-                                        "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E43\u0E2B\u0E49\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E21\u0E35\u0E01\u0E32\u0E23\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49 \u0E17\u0E33\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E31\u0E19\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E20\u0E32\u0E04\u0E27\u0E34\u0E0A\u0E32 \u0E41\u0E25\u0E30\u0E01\u0E25\u0E38\u0E48\u0E21\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08\u0E43\u0E19\u0E14\u0E49\u0E32\u0E19\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19"
-                                    ),
-                                    _react2.default.createElement(
-                                        "li",
-                                        null,
-                                        "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E17\u0E31\u0E28\u0E04\u0E15\u0E34\u0E17\u0E35\u0E48\u0E14\u0E35\u0E15\u0E48\u0E2D\u0E40\u0E17\u0E04\u0E42\u0E19\u0E42\u0E25\u0E22\u0E35\u0E2A\u0E32\u0E23\u0E2A\u0E19\u0E40\u0E17\u0E28\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E20\u0E32\u0E22\u0E43\u0E19\u0E21\u0E2B\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E25\u0E31\u0E22 \u0E41\u0E25\u0E30\u0E1C\u0E39\u0E49\u0E2A\u0E19\u0E43\u0E08"
-                                    )
+                                    "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1B\u0E47\u0E19\u0E01\u0E32\u0E23\u0E2A\u0E48\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E43\u0E2B\u0E49\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E21\u0E35\u0E01\u0E32\u0E23\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49 \u0E17\u0E33\u0E04\u0E27\u0E32\u0E21\u0E23\u0E39\u0E49\u0E08\u0E31\u0E01\u0E01\u0E31\u0E19\u0E23\u0E30\u0E2B\u0E27\u0E48\u0E32\u0E07\u0E20\u0E32\u0E04\u0E27\u0E34\u0E0A\u0E32 \u0E41\u0E25\u0E30\u0E01\u0E25\u0E38\u0E48\u0E21\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E17\u0E35\u0E48\u0E2A\u0E19\u0E43\u0E08\u0E43\u0E19\u0E14\u0E49\u0E32\u0E19\u0E40\u0E14\u0E35\u0E22\u0E27\u0E01\u0E31\u0E19"
+                                ),
+                                _react2.default.createElement(
+                                    "li",
+                                    null,
+                                    "\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E40\u0E2A\u0E23\u0E34\u0E21\u0E17\u0E31\u0E28\u0E04\u0E15\u0E34\u0E17\u0E35\u0E48\u0E14\u0E35\u0E15\u0E48\u0E2D\u0E40\u0E17\u0E04\u0E42\u0E19\u0E42\u0E25\u0E22\u0E35\u0E2A\u0E32\u0E23\u0E2A\u0E19\u0E40\u0E17\u0E28\u0E43\u0E2B\u0E49\u0E01\u0E31\u0E1A\u0E19\u0E31\u0E01\u0E28\u0E36\u0E01\u0E29\u0E32\u0E20\u0E32\u0E22\u0E43\u0E19\u0E21\u0E2B\u0E32\u0E27\u0E34\u0E17\u0E22\u0E32\u0E25\u0E31\u0E22 \u0E41\u0E25\u0E30\u0E1C\u0E39\u0E49\u0E2A\u0E19\u0E43\u0E08"
                                 )
                             )
                         ),
@@ -8559,6 +8557,31 @@ var WhatIs = function (_React$Component) {
                                     "\u0E1C\u0E39\u0E49\u0E40\u0E02\u0E49\u0E32\u0E23\u0E48\u0E27\u0E21\u0E07\u0E32\u0E19\u0E17\u0E38\u0E01\u0E46 \u0E04\u0E19\u0E08\u0E30\u0E15\u0E49\u0E2D\u0E07\u0E40\u0E15\u0E23\u0E35\u0E22\u0E21\u0E02\u0E19\u0E21\u0E01\u0E31\u0E19\u0E21\u0E32\u0E04\u0E19\u0E25\u0E30 1 \u0E0A\u0E34\u0E49\u0E19"
                                 ),
                                 " \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E33\u0E21\u0E32\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E31\u0E19\u0E20\u0E32\u0E22\u0E43\u0E19\u0E07\u0E32\u0E19\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E14\u0E31\u0E48\u0E07\u0E40\u0E0A\u0E48\u0E19 \u0E04\u0E27\u0E32\u0E21\u0E04\u0E34\u0E14\u0E40\u0E2B\u0E47\u0E19\u0E41\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E2A\u0E1A\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E17\u0E35\u0E48\u0E40\u0E23\u0E32\u0E19\u0E33\u0E21\u0E32\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E31\u0E19\u0E20\u0E32\u0E22\u0E43\u0E19\u0E07\u0E32\u0E19"
+                            )
+                        ),
+                        _react2.default.createElement("br", null),
+                        _react2.default.createElement("br", null),
+                        _react2.default.createElement(
+                            "div",
+                            { className: "text-center" },
+                            _react2.default.createElement(
+                                "h2",
+                                null,
+                                "\u0E2D\u0E22\u0E32\u0E01\u0E41\u0E0A\u0E23\u0E4C\u0E1B\u0E23\u0E30\u0E2A\u0E1A\u0E01\u0E32\u0E23\u0E13\u0E4C\u0E20\u0E32\u0E22\u0E43\u0E19\u0E07\u0E32\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E17\u0E33\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E44\u0E23?"
+                            ),
+                            _react2.default.createElement(
+                                "p",
+                                null,
+                                _react2.default.createElement(
+                                    "span",
+                                    null,
+                                    _react2.default.createElement(
+                                        "a",
+                                        { href: "https://goo.gl/IGNFOf" },
+                                        "\u0E01\u0E23\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E21\u0E32\u0E44\u0E14\u0E49\u0E40\u0E25\u0E22\u0E04\u0E23\u0E31\u0E1A Click!"
+                                    ),
+                                    " \u0E41\u0E15\u0E48\u0E08\u0E30\u0E21\u0E35\u0E02\u0E49\u0E2D\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E2B\u0E31\u0E27\u0E02\u0E49\u0E2D\u0E17\u0E35\u0E48\u0E08\u0E30\u0E41\u0E0A\u0E23\u0E4C\u0E20\u0E32\u0E22\u0E43\u0E19\u0E07\u0E32\u0E19\u0E2A\u0E31\u0E01\u0E40\u0E25\u0E47\u0E01\u0E19\u0E49\u0E2D\u0E22\u0E19\u0E30\u0E04\u0E23\u0E31\u0E1A"
+                                )
                             )
                         )
                     )
@@ -9327,7 +9350,7 @@ module.exports = performanceNow;
 /* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "9b4b7a40351f496d72654824378e73ba.svg";
+module.exports = __webpack_require__.p + "7432e8fef50a70a94e8d1b00b6b33326.svg";
 
 /***/ }),
 /* 128 */
@@ -18812,6 +18835,13 @@ module.exports = getNextDebugID;
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "images/Bag.png";
+
+/***/ }),
+/* 228 */,
+/* 229 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "6c17da585f1f4258c77dea4f626197d0.svg";
 
 /***/ })
 ],[95]);
