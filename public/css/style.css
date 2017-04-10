@@ -138,7 +138,7 @@ body{
   border-left: 5px solid #5F3307;
 }
 #whatis a{
-  color: #553B25;
+  color: #a27200;
 }
 #whatis b{
   font-size: 1.4em;
@@ -214,7 +214,6 @@ body{
   background-color: #70584B;
   padding: 0.5em;
   border-radius: 20px;
-  margin-left: 1em;
 }
 #contact i{
   font-size: 1.5em;
@@ -226,6 +225,12 @@ body{
   width: 100%;
   height: 5em;
   background-color: #553B25;
+}
+.evbLogo{
+  height: 41.38px;
+  width:  42px;
+  margin-top: -0.6em;
+  margin-left: 0.6em;
 }
 /* END CONTACT */
 
@@ -340,16 +345,16 @@ body{
     margin-bottom: 0.25em;
   }
   #contact{
-      min-height: 28em;
+    min-height: 28em;
   }
 }
 
 @media screen and (min-device-width: 1024px){
   .boxDetail h2 {
-      margin-left: 1em;
+    margin-left: 0.7em;
   }
   .boxDetail h4 {
-      margin-left: 1em;
+    margin-left: 1em;
   }
 }
 /* END TABLET*/
