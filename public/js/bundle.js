@@ -5344,12 +5344,7 @@ function getActiveElement(doc) /*?DOMElement*/{
 module.exports = getActiveElement;
 
 /***/ }),
-/* 60 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/bag.png";
-
-/***/ }),
+/* 60 */,
 /* 61 */,
 /* 62 */,
 /* 63 */,
@@ -7727,9 +7722,9 @@ var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _bag = __webpack_require__(60);
+var _Bag = __webpack_require__(227);
 
-var _bag2 = _interopRequireDefault(_bag);
+var _Bag2 = _interopRequireDefault(_Bag);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -7769,7 +7764,7 @@ var Contact = function (_React$Component) {
               _react2.default.createElement(
                 'div',
                 { className: 'col-xs-12 col-sm-3 col-sm-offset-1' },
-                _react2.default.createElement('img', { src: _bag2.default, className: 'baglogo', alt: '' }),
+                _react2.default.createElement('img', { src: _Bag2.default, className: 'baglogo', alt: '' }),
                 _react2.default.createElement(
                   'h2',
                   null,
@@ -7870,9 +7865,9 @@ var _react = __webpack_require__(6);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _bag = __webpack_require__(60);
+var _Bag = __webpack_require__(227);
 
-var _bag2 = _interopRequireDefault(_bag);
+var _Bag2 = _interopRequireDefault(_Bag);
 
 var _jump = __webpack_require__(56);
 
@@ -7910,7 +7905,7 @@ var WhatIs = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: 'col-xs-12 text-center' },
-              _react2.default.createElement('img', { src: _bag2.default, alt: '', className: 'mainBag' })
+              _react2.default.createElement('img', { src: _Bag2.default, alt: '', className: 'mainBag' })
             )
           ),
           _react2.default.createElement(
@@ -18806,6 +18801,17 @@ function getNextDebugID() {
 }
 
 module.exports = getNextDebugID;
+
+/***/ }),
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/Bag.png";
 
 /***/ })
 ],[95]);

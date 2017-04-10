@@ -1,5 +1,5 @@
 import React from 'react';
-import Bag from '../images/bag.png';
+import Bag from '../images/Bag.png';
 
 class Contact extends React.Component {
   constructor(props) {
