@@ -145,8 +145,8 @@ body{
 }
 #whatis span{
   font-size: 1.1em;
-  letter-spacing: 0.0425em;    
-  line-height: 1.58;    
+  letter-spacing: 0.0425em;
+  line-height: 1.58;
   font-weight: 400;
   font-style: normal;
 }
@@ -281,6 +281,20 @@ body{
     color: #A88471;
     background-color: transparent;
     transition: 0.3s;
+}
+.navbar-inverse-edit{
+  background-color: transparent;
+  border-color: transparent;
+  border: 0px;
+}
+.navbar-inverse-edit .navbar-toggle{
+  border-color: #fff;
+}
+.navbar-inverse-edit .navbar-nav>li>a{
+  color: white;
+}
+.navbar-inverse-edit .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+  background-color: transparent;
 }
 /* END Bootstrap Config*/
 
