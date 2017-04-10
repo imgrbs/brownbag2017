@@ -10,11 +10,11 @@
     <meta property="og:image" content="{{asset('images/Cover.png')}}" />
     <meta property="og:site_name" content="Brown Bag 2.0 By Alchemist">
     <meta property="og:description" content="ไม่ว่าคุณจะอยู่ภาคไหน ไม่ว่าคุณจะรู้จักไอทีหรือไม่ มาร่วมแบ่งขนม ผสมความรู้กันใน Brown Bag #2.0 By Alchemist">      
-    <meta property="fb:page_id" content="250617067968">
+    <meta property="fb:page_id" content="1767691256809451">
     <link rel="icon" type="image/png" href="{{asset('images/Bag.png')}}" sizes="16x16">
     <meta name="msapplication-TileColor" content="#5F3307">
     <meta name="theme-color" content="#5F3307">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('js/bootstrap.min.js')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
