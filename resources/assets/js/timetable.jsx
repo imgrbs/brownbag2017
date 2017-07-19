@@ -11,7 +11,7 @@ class TimeTable extends React.Component{
         <div className="row">
           <div className="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 timetable">
             <h1>TIMETABLE</h1>
-            <h4>22 April 2017, KMUTT</h4>
+            <h4>3 July 2017, KMUTT</h4>
           </div>
         </div>
         <div className="bodyTimetable">
