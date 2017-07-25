@@ -23,8 +23,8 @@ class WhatIs extends React.Component{
                     <i className="fa fa-clock-o" aria-hidden="true"></i>
                   </div>
                   <div className="col-xs-8">
-                    <h2>3 July 2017</h2>
-                    <h4>13:00 PM - 17:00 PM</h4>
+                    <h2>3 August 2017</h2>
+                    <h4>13:00 PM - 16:30 PM</h4>
                   </div>
                 </div>
 

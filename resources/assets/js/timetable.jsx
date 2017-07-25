@@ -11,7 +11,7 @@ class TimeTable extends React.Component{
         <div className="row">
           <div className="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-2 col-md-10 col-md-offset-2 timetable">
             <h1>TIMETABLE</h1>
-            <h4>3 July 2017, KMUTT</h4>
+            <h4>3 August 2017, KMUTT</h4>
           </div>
         </div>
         <div className="bodyTimetable">
@@ -20,32 +20,28 @@ class TimeTable extends React.Component{
             <Event event="ลงทะเบียน" />
           </div>
           <div className="row">
-            <Time time="13:30 - 13:40" />
+            <Time time="13:30 - 14:00" />
             <Event event="พิธีเปิดโครงการ" />
           </div>
           <div className="row">
-            <Time time="13:40 - 14:20" />
+            <Time time="14:00 - 14:35" />
             <Event event="Session I" />
           </div>
           <div className="row">
-            <Time time="14:20 - 15:00" />
+            <Time time="14:40 - 15:15" />
             <Event event="Session II" />
           </div>
           <div className="row">
-            <Time time="15:00 - 15:30" />
+            <Time time="15:15 - 15:30" />
             <Event event="พักรับประทานอาหารว่าง และ" />
             <Event event="แลกเปลี่ยนกันตามอัธยาศัย" />
           </div>
           <div className="row">
-            <Time time="15:30 - 16:10" />
+            <Time time="15:30 - 16:05" />
             <Event event="Session III" />
           </div>
           <div className="row">
-            <Time time="16:10 - 16:50" />
-            <Event event="Session IV" />
-          </div>
-          <div className="row">
-            <Time time="16:50 - 17:00" />
+            <Time time="16:10 - 16:30" />
             <Event event="สรุปงานและแลกเปลี่ยนกันตามอัธยาศัย" />
           </div>
         </div>

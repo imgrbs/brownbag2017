@@ -8042,12 +8042,12 @@ var WhatIs = function (_React$Component) {
                 _react2.default.createElement(
                   'h2',
                   null,
-                  '3 July 2017'
+                  '3 August 2017'
                 ),
                 _react2.default.createElement(
                   'h4',
                   null,
-                  '13:00 PM - 17:00 PM'
+                  '13:00 PM - 16:30 PM'
                 )
               )
             ),
@@ -8404,7 +8404,7 @@ var TimeTable = function (_React$Component) {
             _react2.default.createElement(
               "h4",
               null,
-              "3 July 2017, KMUTT"
+              "3 August 2017, KMUTT"
             )
           )
         ),
@@ -8420,44 +8420,38 @@ var TimeTable = function (_React$Component) {
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "13:30 - 13:40" }),
+            _react2.default.createElement(Time, { time: "13:30 - 14:00" }),
             _react2.default.createElement(Event, { event: "\u0E1E\u0E34\u0E18\u0E35\u0E40\u0E1B\u0E34\u0E14\u0E42\u0E04\u0E23\u0E07\u0E01\u0E32\u0E23" })
           ),
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "13:40 - 14:20" }),
+            _react2.default.createElement(Time, { time: "14:00 - 14:35" }),
             _react2.default.createElement(Event, { event: "Session I" })
           ),
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "14:20 - 15:00" }),
+            _react2.default.createElement(Time, { time: "14:40 - 15:15" }),
             _react2.default.createElement(Event, { event: "Session II" })
           ),
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "15:00 - 15:30" }),
+            _react2.default.createElement(Time, { time: "15:15 - 15:30" }),
             _react2.default.createElement(Event, { event: "\u0E1E\u0E31\u0E01\u0E23\u0E31\u0E1A\u0E1B\u0E23\u0E30\u0E17\u0E32\u0E19\u0E2D\u0E32\u0E2B\u0E32\u0E23\u0E27\u0E48\u0E32\u0E07 \u0E41\u0E25\u0E30" }),
             _react2.default.createElement(Event, { event: "\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E31\u0E19\u0E15\u0E32\u0E21\u0E2D\u0E31\u0E18\u0E22\u0E32\u0E28\u0E31\u0E22" })
           ),
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "15:30 - 16:10" }),
+            _react2.default.createElement(Time, { time: "15:30 - 16:05" }),
             _react2.default.createElement(Event, { event: "Session III" })
           ),
           _react2.default.createElement(
             "div",
             { className: "row" },
-            _react2.default.createElement(Time, { time: "16:10 - 16:50" }),
-            _react2.default.createElement(Event, { event: "Session IV" })
-          ),
-          _react2.default.createElement(
-            "div",
-            { className: "row" },
-            _react2.default.createElement(Time, { time: "16:50 - 17:00" }),
+            _react2.default.createElement(Time, { time: "16:10 - 16:30" }),
             _react2.default.createElement(Event, { event: "\u0E2A\u0E23\u0E38\u0E1B\u0E07\u0E32\u0E19\u0E41\u0E25\u0E30\u0E41\u0E25\u0E01\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E01\u0E31\u0E19\u0E15\u0E32\u0E21\u0E2D\u0E31\u0E18\u0E22\u0E32\u0E28\u0E31\u0E22" })
           )
         )
