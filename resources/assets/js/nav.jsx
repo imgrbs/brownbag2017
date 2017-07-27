@@ -27,7 +27,7 @@ import jump from './jump.js';
                <div className="container">
                  <ul className="nav navbar-nav">
                    <li className="active"><a className="Brand" onClick={()=>{jump('#main', { duration: 500 })}}>Brown Bag #3.0</a></li>
-                   <li><a href="https://goo.gl/IGNFOf">REGISTER</a></li>
+                    <li><a href="https://goo.gl/MUpgTJ">REGISTER</a></li> 
                    <li><a onClick={()=>{jump('#whatis', { duration: 700 , offset : -50 })}}>WHAT'S</a></li>
                    <li><a onClick={()=>{jump('#timetable', { duration: 700 , offset : -50 })}}>TIMETABLE</a></li>
                    <li><a onClick={()=>{jump('#sponsor', { duration: 700 , offset : -49 })}}>SPONSOR</a></li>
