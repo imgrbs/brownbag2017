@@ -13,13 +13,13 @@ class Sponsor extends React.Component{
       <section id="sponsor" className="container-fluid">
         <div className="row">
             <div className="col-xs-12 text-center">
-                <h1>Sponsor</h1>
+                <h1>Sponsors</h1>
                 <br/>
                 <img src={KMUTT} alt="" className="KMUTT"/><br/>
                 <img src={Sit} alt="" className="SIT"/>
                 <br/>
                 <br/>
-                <h2>Create By</h2>
+                <h2>Created By</h2>
                 <img src={Alch} alt="" className="logo"/>
             </div>
         </div>

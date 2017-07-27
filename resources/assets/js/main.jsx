@@ -17,14 +17,14 @@ class WhatIs extends React.Component{
                 </div>
             </div>
             <div className="col-xs-12 col-sm-6 col-md-6 boxDetail text-center">
-                <h1>Brown Bag #2.0</h1>
+                <h1>Brown Bag #3.0</h1>
                 <div className="row">
                   <div className="col-xs-offset-2 col-xs-2 col-md-1 col-md-offset-2">
                     <i className="fa fa-clock-o" aria-hidden="true"></i>
                   </div>
                   <div className="col-xs-8">
-                    <h2>22 April 2017</h2>
-                    <h4>13:00 PM - 17:00 PM</h4>
+                    <h2>3 August 2017</h2>
+                    <h4>13:00 PM - 16:30 PM</h4>
                   </div>
                 </div>
 
@@ -40,8 +40,8 @@ class WhatIs extends React.Component{
                 <div className="row">
                   <div className="col-xs-12 col-sm-12 col-md-10 text-center mainMenu">
                       <a onClick={()=>{jump('#whatis', { duration: 700 , offset : -50 })}} className="whatis-btn">WHAT'S</a>
-                      <a href="https://goo.gl/IGNFOf" className="session-btn">SUBMIT TOPIC</a>
-                      <a href="https://sitbrownbag.eventbrite.com" className="session-btn">REGISTER</a>
+                      <a href="https://goo.gl/MUpgTJ" className="session-btn">SUBMIT TOPIC</a>
+                      {/* <a href="https://sitbrownbag.eventbrite.com" className="session-btn">REGISTER</a> */}
                   </div>
                 </div>
             </div>
