@@ -8086,6 +8086,11 @@ var WhatIs = function (_React$Component) {
                   'a',
                   { href: 'https://goo.gl/MUpgTJ', className: 'session-btn' },
                   'SUBMIT TOPIC'
+                ),
+                _react2.default.createElement(
+                  'a',
+                  { href: 'https://passport.kmutt.ac.th', className: 'session-btn' },
+                  'REGISTER'
                 )
               )
             )
