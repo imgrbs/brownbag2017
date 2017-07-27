@@ -26,11 +26,11 @@ class Contact extends React.Component {
                 <h4>alchemist@sit.kmutt.ac.th</h4>
                 <br/>
                 <a href="https://fb.com/BrownBagSITKMUTT/">
-                <img src={Evb} className="evbLogo" alt=""/>
+                  <img src={Evb} className="evbLogo" alt=""/>
                 </a>
-                <a href="https://sitbrownbag.eventbrite.com">
+                {/* <a href="https://sitbrownbag.eventbrite.com">
                 <img src={Fb} className="evbLogo" alt=""/>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

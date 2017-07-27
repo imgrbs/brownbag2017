@@ -7917,11 +7917,6 @@ var Contact = function (_React$Component) {
                   'a',
                   { href: 'https://fb.com/BrownBagSITKMUTT/' },
                   _react2.default.createElement('img', { src: _fbicon2.default, className: 'evbLogo', alt: '' })
-                ),
-                _react2.default.createElement(
-                  'a',
-                  { href: 'https://sitbrownbag.eventbrite.com' },
-                  _react2.default.createElement('img', { src: _evbicon2.default, className: 'evbLogo', alt: '' })
                 )
               )
             )
@@ -8336,7 +8331,7 @@ var Sponsor = function (_React$Component) {
             _react2.default.createElement(
               'h2',
               null,
-              'Create By'
+              'Created By'
             ),
             _react2.default.createElement('img', { src: _alchLogo2.default, alt: '', className: 'logo' })
           )

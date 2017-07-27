@@ -19,7 +19,7 @@ class Sponsor extends React.Component{
                 <img src={Sit} alt="" className="SIT"/>
                 <br/>
                 <br/>
-                <h2>Create By</h2>
+                <h2>Created By</h2>
                 <img src={Alch} alt="" className="logo"/>
             </div>
         </div>
